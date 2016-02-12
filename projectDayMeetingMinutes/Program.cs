@@ -74,6 +74,7 @@ namespace projectDayMeetingMinutes {
                 Console.WriteLine("Please enter the meeting timekeeper:");
                 string timeKeeper = Console.ReadLine();
                 if (Names.ContainsKey(timeKeeper)) {
+                    fileContents.Add("Meeting Timekeeper: " + timeKeeper);
                     break;
                 } else {
                     Console.WriteLine("Invalid selection. Please try again. . .");
@@ -87,6 +88,7 @@ namespace projectDayMeetingMinutes {
                 Console.WriteLine("Please enter the leader of the meeting:");
                 string meetingLead = Console.ReadLine();
                 if (Names.ContainsKey(meetingLead)) {
+                    fileContents.Add("Meeting Leader: " + meetingLead);
                     break;
                 } else {
                     Console.WriteLine("Invalid selection. Please try again. . .");
@@ -98,6 +100,35 @@ namespace projectDayMeetingMinutes {
             Console.WriteLine("Meeting Minutes Management Software\n-----------------------------------\n\n");
             Console.WriteLine("Please enter the date of the meeting in MMDDYY format:");
             string date = Console.ReadLine();
+
+            Console.Clear();
+            Console.WriteLine("Meeting Minutes Management Software\n-----------------------------------\n\n");
+            int counter = 1;
+            foreach (string team in Teams) {
+                Console.WriteLine(counter + ". " + team);
+                counter++;
+            }
+
+            Console.WriteLine("\nWhich team type is this meeting?");
+            string teamChoice = Console.ReadLine();
+            switch (teamChoice) {
+                case "1":
+                    fileContents.Add("Administration Meeting");
+                    break;
+                case "2":
+                    fileContents.Add("Marketing Meeting");
+                    break;
+                case "3":
+                    fileContents.Add("Accounting Meeting");
+                    break;
+                default:
+                    Console.Clear();
+                    Console.WriteLine("Meeting Minutes Management Software\n-----------------------------------\n\n");
+                    Console.WriteLine("Invalid Selection. Please try again. . .");
+                    Console.ReadKey();
+                    ViewTeams();
+                    break;
+            }
 
             //Topics added to fileContents
             Console.Clear();
