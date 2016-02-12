@@ -1,0 +1,6 @@
+C:\Users\We Can Code IT\Documents\Visual Studio 2015\Projects\Project Days\projectDayMeetingMinutes\projectDayMeetingMinutes\bin\Debug\projectDayMeetingMinutes.exe.config
+C:\Users\We Can Code IT\Documents\Visual Studio 2015\Projects\Project Days\projectDayMeetingMinutes\projectDayMeetingMinutes\bin\Debug\projectDayMeetingMinutes.exe
+C:\Users\We Can Code IT\Documents\Visual Studio 2015\Projects\Project Days\projectDayMeetingMinutes\projectDayMeetingMinutes\bin\Debug\projectDayMeetingMinutes.pdb
+C:\Users\We Can Code IT\Documents\Visual Studio 2015\Projects\Project Days\projectDayMeetingMinutes\projectDayMeetingMinutes\obj\Debug\projectDayMeetingMinutes.csprojResolveAssemblyReference.cache
+C:\Users\We Can Code IT\Documents\Visual Studio 2015\Projects\Project Days\projectDayMeetingMinutes\projectDayMeetingMinutes\obj\Debug\projectDayMeetingMinutes.exe
+C:\Users\We Can Code IT\Documents\Visual Studio 2015\Projects\Project Days\projectDayMeetingMinutes\projectDayMeetingMinutes\obj\Debug\projectDayMeetingMinutes.pdb
