@@ -47,6 +47,7 @@ namespace projectDayMeetingMinutes {
                     break;
                 case "3":
                     Console.Clear();
+                    Console.WriteLine("Meeting Minutes Management Software\n-----------------------------------\n\n");
                     Console.WriteLine("Goodbye!");
                     Console.ReadKey();
                     break;
